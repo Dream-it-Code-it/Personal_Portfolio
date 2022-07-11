@@ -2,6 +2,7 @@ body {
     font-size: 15pt;
     margin: 0;
     background: #25222A;
+    font-family: 'Finlandica', sans-serif;
    
 }
 .Side_Shape_1{
@@ -97,8 +98,6 @@ h2{
         line-height:1rem;
         justify-content: center;
         text-align: center;
-        font-family: 'Petrona', serif;
-font-family: 'Ubuntu', sans-serif;
         color: #FFFFFF;
 }
 h3{
@@ -106,12 +105,9 @@ h3{
           top: -18.9rem;
           color: #8A8C9D;
           display: flex;
-          
           justify-content: center;
           text-align: center;      
           font-size: 1rem;
-          font-family: 'Petrona', serif;
-font-family: 'Ubuntu', sans-serif;
 }
 .Scroll_Anime{
         position: relative;
@@ -119,6 +115,7 @@ font-family: 'Ubuntu', sans-serif;
         text-align: center;
         display: flex;
         top: 2rem;
+        opacity: 75%;
 }
 #shape{
         border: 2rem 5rem 2rem 5rem;
@@ -136,13 +133,13 @@ font-family: 'Ubuntu', sans-serif;
                border-top: 5px solid #44BD92;
         }
         46%{
-                border-right: 5px solid #44BD92;
+                border-right: 5px solid #618DF3;
         }
         70%{
-             border-left: 5px solid #44BD92;
+             border-left: 5px solid #618DF3;
         }
         100%{
-                border:5px solid #44BD92;
+                border-bottom:5px solid #DD61F3;
         }
 }
 
@@ -339,23 +336,12 @@ span{
                 background: #9599C1
         }
 }
-h4{
-        
-       
-}
-
 #Heading_1{
-        background: #9751E1;
          border-radius: 1rem;
-         background: #675AD2;
+         background: url(background.gif);
          font-size:1.5rem;
-         font-family: 'Petrona', serif;
-font-family: 'Ubuntu', sans-serif;
          border: 4px solid #9958DF;
-}
-.Heading_1:hover{
-        transform: scale(120%);
-        background: #8F57E1;
+         opacity: 50%;
 }
 li{
         list-style: none;
@@ -377,6 +363,7 @@ li{
         position: relative;
         background:#38363A;
         border-radius:2rem;
+        
 }
 .Second_Column{
         display: flex;
@@ -410,6 +397,7 @@ li{
         position: relative;
         background:#38363A;
         border-radius:2rem;
+        
 }
 #h3_1{
         position: relative;
@@ -423,11 +411,66 @@ li{
 }
 h5{
         text-align: center;
-        font-size: 3rem;
+        font-size: 2rem;
         color: #7ED5B5;
+         font-family: 'Edu QLD Beginner', cursive;
 }
+h4{
+        font-family: 'Finlandica', sans-serif;
+        color: #7BA3FF;
+}
+hr{
+        background: #6290DA;
+        animation: shrink 2s linear infinite;
+}
+@keyframes shrink{
+        0%{
+                width: 2rem;
+        }
+        10%{
+                width :6rem;
+        }
+        20%{
+                width: 10rem;
+        }
+        30%{
+                width: 14rem;
+        }
+        40%{
+                width: 18rem;
+                background: #DDFF06;
+        }
+        50%{
+                width: 26rem;
+        }
+        60%{
+                width: 32rem;
+        }
+        70%{
+                width: 40rem;
+        }
+        80%{
+                width: 48rem;
+        }
+        90%{
+                Width :58rem;
+        }
+        100%{
+                width: 2rem;
+        }
+}
+.text-animation{
+  position : relative;
+  display: flex;
+  justify-content: space-evenly;
+  top:1rem;
+  color: #48A1CC;
+  
+}
+
 .Animes{
         display: flex;
 }
+
 
 
